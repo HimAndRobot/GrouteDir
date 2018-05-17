@@ -9,7 +9,7 @@
 	],	
 	"type": "package",
 	"autoload": {
-		"psr-4":{"dir\\":""},
+		"psr-4":{"dir\\":""}
 	},
 	"license": "MIT"
 }
