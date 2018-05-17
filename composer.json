@@ -1,0 +1,15 @@
+{
+	"name": "Groot/dir",
+	"discription": "Package com função de criar os diretorios, necessarios, para o funcionamento do Groute",
+	"authors":[
+		{
+			"name": "Gean Pedro da Silva",
+			"email": "Geanpn@gmail.com"
+		}
+	],	
+	"type": "package",
+	"autoload": {
+		"psr-4":{"dir\\":""}
+	},
+	"license": "MIT"
+}
