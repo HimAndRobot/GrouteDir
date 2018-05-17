@@ -7,5 +7,8 @@ class DirGenerato
 		foreach ($dir as $key => $value) {
 			mkdir($value, 0700);
 		}
+		copy ('arquives/controller.php','app/http/controller/controller.php');
+		copy ('arquives/.htaccess','.htaccess');
+		copy ('arquives/web.php','routes/web.php');
 	}
 }
