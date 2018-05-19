@@ -11,5 +11,10 @@
 	"autoload": {
 		"psr-4":{"dir\\":""}
 	},
+	"scripts": {
+        "post-update-cmd": [
+            "dir\\DirGenerato::create"
+        ]
+    },
 	"license": "MIT"
 }
